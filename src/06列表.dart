@@ -10,6 +10,8 @@ void main() {
 	newList.add(122);
 	newList.add(123);
 	newList.add(124);
+	newList.remove(123);
+	newList[0] = 1;
 	print(newList);
 
 }
