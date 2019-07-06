@@ -1,5 +1,6 @@
 void main() {
 	String string = 'str';
+
 	// 返回给定索引处的16位UTF-16代码单元。
 	print(string.codeUnitAt(1));
 
