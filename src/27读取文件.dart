@@ -1,4 +1,5 @@
 
+import 'dart:async';
 import 'dart:io';
 
 void main() {
@@ -7,6 +8,7 @@ void main() {
 
 
 	File file = new File(Directory.current.path + "/data/text.txt");
+	// 异步对象
 	Future<String> f = file.readAsString();
 
 	f.then((data)=>print(data));

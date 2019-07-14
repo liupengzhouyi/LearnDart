@@ -1,5 +1,2 @@
-name: 'vector_victor'
-version: 0.0.1
-description: An absolute bare-bones web app.
-
-dependencies: browser: '>=0.10.0 <0.11.0'
+dependencies:
+test:
