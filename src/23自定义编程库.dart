@@ -1,4 +1,4 @@
-library loggerlib;
+library logger_lib;
 
 void _log(msg) {
 	print("Log method called in loggerlib msg:$msg");
